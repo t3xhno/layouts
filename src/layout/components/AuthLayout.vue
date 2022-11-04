@@ -5,7 +5,7 @@
     <main :class="$style.content">
       <slot name="content" />
     </main>
-    <footer :class="$style.content">
+    <footer :class="$style.footer">
       <slot name="footer" />
     </footer>
   </div>

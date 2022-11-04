@@ -17,7 +17,7 @@ const { setLayout, LAYOUTS } = useLayout();
         <p>Header</p>
       </template>
       <template #content>
-        <p>Contenr</p>
+        <p>Content</p>
       </template>
       <template #aside>
         <p>Aside</p>
