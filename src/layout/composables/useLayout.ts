@@ -8,6 +8,6 @@ export const LAYOUTS: ILayout = {
   standard: Symbol("standard"),
 };
 
-const { useLayout } = useLayoutFactory(LAYOUTS, LAYOUTS.standard);
+const { useLayout } = useLayoutFactory({ LAYOUTS, defaultLayout: LAYOUTS.standard, layoutComponents: {} });
 
 export { useLayout };
